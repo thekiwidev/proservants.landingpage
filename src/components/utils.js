@@ -25,11 +25,15 @@ export const Text = styled.p`
 `;
 
 export const BannerText = styled.h1`
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
   span {
     color: #05d9d3;
+  }
+
+  @media (min-width: 500px) {
+    font-size: 3rem;
   }
   /* ... */
 `;
