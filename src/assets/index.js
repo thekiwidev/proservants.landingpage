@@ -6,3 +6,4 @@ export { default as microsoftImg } from "./microsoft.svg";
 export { default as uberImg } from "./uber.svg";
 export { default as wiseImg } from "./wise.svg";
 export { default as chipperImg } from "./chipper.svg";
+export { default as phoneImg } from "./checkout.png";
