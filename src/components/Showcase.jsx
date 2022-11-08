@@ -1,7 +1,6 @@
 import React from "react";
 import "./Showcase.scss";
-import footCityImg from "../assets/foot_city.webp";
-import famasiImg from "../assets/famasi.webp";
+import { famasiImg, footCityImg } from "../assets";
 import { Text } from "./utils";
 
 const Showcase = () => {

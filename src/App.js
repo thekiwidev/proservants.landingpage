@@ -1,6 +1,5 @@
-import Billboard from "./components/Billboard";
-import Header from "./components/Header";
-import Showcase from "./components/Showcase";
+// import Billboard from "./components/Billboard";
+import { Billboard, Header, Showcase, Trustees } from "./components";
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <Header />
       <Billboard />
       <Showcase />
+      <Trustees />
     </div>
   );
 }

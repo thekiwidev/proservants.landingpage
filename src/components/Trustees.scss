@@ -1,0 +1,39 @@
+.trustees-section {
+  padding: 1rem;
+
+  .businesses {
+    margin-top: 2rem;
+
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+
+      &.mtn {
+        width: 50px;
+      }
+
+      &.piggyvest {
+        width: 100px;
+      }
+
+      &.microsoft {
+        width: 100px;
+      }
+
+      &.wise {
+        width: 50px;
+      }
+
+      &.uber {
+        width: 45px;
+      }
+
+      &.chipper {
+        width: 90px;
+      }
+    }
+  }
+}
