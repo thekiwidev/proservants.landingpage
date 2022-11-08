@@ -1,0 +1,30 @@
+.btn {
+  padding: 1rem;
+  background: #ececec;
+
+  outline: none;
+  border: none;
+
+  border-radius: 1rem;
+
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: #cecece;
+  }
+
+  &.btn-primary {
+    background: #05d9d3;
+
+    &:hover {
+      background: #017a76;
+      color: #fff;
+    }
+  }
+}
