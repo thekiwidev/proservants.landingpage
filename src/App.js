@@ -1,5 +1,12 @@
 // import Billboard from "./components/Billboard";
-import { Billboard, Header, Payments, Showcase, Trustees } from "./components";
+import {
+  Billboard,
+  Header,
+  Payments,
+  Showcase,
+  Tools,
+  Trustees,
+} from "./components";
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
       <Showcase />
       <Trustees />
       <Payments />
+      <Tools />
     </div>
   );
 }

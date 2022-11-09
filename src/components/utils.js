@@ -7,7 +7,7 @@ export const Text = styled.p`
 
   margin-bottom: 1rem;
 
-  b {
+  span {
     color: #05d9d3;
   }
 `;
