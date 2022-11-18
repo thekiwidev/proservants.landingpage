@@ -1,7 +1,6 @@
 import React from "react";
 import { creatorImg, yangaBeautyImg } from "../assets";
-import Button from "./Button";
-import { BannerText, Text } from "./utils";
+import { BannerText, Button, Text } from "./utils";
 import "./Tools.scss";
 
 const Tools = () => {

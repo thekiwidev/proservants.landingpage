@@ -1,6 +1,17 @@
+@import "./variables.scss";
+
 .trustees-section {
   padding: 1rem;
 
+  background-color: $theme-white;
+
+  p {
+    color: #000;
+
+    strong {
+      color: #000;
+    }
+  }
   .businesses {
     margin-top: 2rem;
 

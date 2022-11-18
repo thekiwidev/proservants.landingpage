@@ -1,22 +1,33 @@
 import React from "react";
 import "./Showcase.scss";
-import { famasiImg, footCityImg } from "../assets";
-import { Text } from "./utils";
+import { sellEverywhere } from "../assets";
+// import { Text } from "./utils";
+import TextContent from "./TextContent";
+import { BannerText, Button, Text } from "./utils";
 
 const Showcase = () => {
   return (
     <section className="showcase-container">
       <div className="img-container img-one">
-        <img src={footCityImg} alt="foot city" />
+        <img src={sellEverywhere} alt="foot city" />
       </div>
-      <Text>
-        It's not the size of the company, it's the size of the ambition.
-        Ambitious businesses of all sizes count on <b>ProServants</b> to grow
-        their business everywhere.
-      </Text>
-      <div className="img-container img-two">
-        <img src={famasiImg} alt="foot city" />
-      </div>
+      <TextContent
+        headText={
+          <BannerText>
+            <span>Sell everywhere,</span> painlessly.
+          </BannerText>
+        }
+        paraText={
+          <Text>
+            Everything You Need To Run And Grow Your <br />{" "}
+            <b>
+              <span>E-Commerce</span>
+            </b>{" "}
+            Business.
+          </Text>
+        }
+        btnText={<Button className="btn-orange">Get Started</Button>}
+      />
     </section>
   );
 };

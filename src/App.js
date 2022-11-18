@@ -1,11 +1,12 @@
-// import Billboard from "./components/Billboard";
 import {
   Billboard,
   Header,
-  Payments,
+  DeliverWithUs,
   Showcase,
-  Tools,
   Trustees,
+  ShopNow,
+  SellNow,
+  MarketPlace,
 } from "./components";
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
       <Billboard />
       <Showcase />
       <Trustees />
-      <Payments />
-      <Tools />
+      <DeliverWithUs />
+      <ShopNow />
+      <SellNow />
+      <MarketPlace />
     </div>
   );
 }
