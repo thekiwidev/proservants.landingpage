@@ -5,15 +5,19 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <header>
-      <div className="logo-container">
-        <a href="./">
-          <Logo src={logo} />
-        </a>
-      </div>
-      <div className="menu-container">
-        <div className="stroke stroke-one"></div>
-        <div className="stroke stroke-two"></div>
+    <header className="main-header">
+      <div className="container">
+        <div className="contsnt">
+          <div className="logo-container">
+            <a href="./">
+              <Logo src={logo} />
+            </a>
+          </div>
+          <div className="menu">
+            <div className="stroke stroke-one"></div>
+            <div className="stroke stroke-two"></div>
+          </div>
+        </div>
       </div>
     </header>
   );

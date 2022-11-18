@@ -1,41 +1,46 @@
 .deliver-with-us-section {
-  margin-top: 3rem;
-  padding: 1rem;
+  .contents {
+    @media only screen and (min-width: 850px) {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
 
-  h1 {
-    margin-bottom: 3rem;
-  }
-
-  .texts {
-    p {
-      margin-top: 1.5rem;
+      flex-direction: row-reverse;
     }
-  }
-  .img-container {
-    display: grid;
-    place-content: center;
 
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding: 1rem;
 
-    img {
-      width: 90%;
-      margin: 2rem auto;
-    }
-  }
-  .payments-features {
-    margin: 1rem 0 0;
+    .img-container {
+      display: grid;
+      place-content: center;
 
-    .feature {
-      margin: 2rem 0;
+      margin-top: 2rem;
 
-      h3 {
-        margin-bottom: 1rem;
+      @media only screen and (min-width: 850px) {
+        flex: 1;
       }
-      a.ext-link {
-        color: #05d9d3;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 1.1rem;
+
+      img {
+        width: 90%;
+        margin: 2rem auto;
+
+        @media only screen and (min-width: 850px) {
+          width: 100%;
+        }
+      }
+    }
+    .text-content {
+      @media only screen and (min-width: 850px) {
+        flex: 1;
+      }
+
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        max-width: 450px;
       }
     }
   }

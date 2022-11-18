@@ -1,31 +1,71 @@
 @import "./variables.scss";
 .billboard-container {
-  padding: 1rem;
-  margin-bottom: 2.5rem;
+  @media only screen and (min-width: 850px) {
+    max-height: 850px;
+  }
 
-  .billboard-image {
-    width: 100%;
+  .content {
+    margin-bottom: 2.5rem;
+    height: 100%;
 
-    img {
-      display: block;
-      width: 90%;
-      margin: auto;
+    @media only screen and (min-width: 850px) {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
     }
-  }
 
-  h1 {
-    width: 350px;
-    text-transform: capitalize;
-  }
-
-  .call-to-action {
-    display: flex;
-    gap: 1rem;
-
-    a.btn {
-      display: inline-block;
+    .billboard-image {
       width: 100%;
-      text-align: center;
+
+      @media only screen and (min-width: 850px) {
+        flex: 1;
+      }
+
+      img {
+        display: block;
+        width: 90%;
+        max-width: 500px;
+        margin: auto;
+      }
+    }
+    .text-contents {
+      @media only screen and (min-width: 850px) {
+        flex: 1;
+      }
+      h1 {
+        text-transform: capitalize;
+      }
+
+      p {
+        max-width: 400px;
+      }
+
+      .call-to-action {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+
+        flex-wrap: wrap;
+
+        @media only screen and (min-width: 850px) {
+          flex-wrap: nowrap;
+        }
+
+        a.btn {
+          display: inline-block;
+          width: 46%;
+          text-align: center;
+
+          &:last-of-type {
+            width: 98%;
+          }
+          @media only screen and (min-width: 850px) {
+            flex: 1;
+          }
+        }
+      }
     }
   }
 }

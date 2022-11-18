@@ -2,7 +2,7 @@ import "./TextContent.scss";
 
 const TextContent = ({ headText, paraText, btnText }) => {
   return (
-    <div>
+    <div className="text-content">
       {headText}
       {paraText}
       {btnText}

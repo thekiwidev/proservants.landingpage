@@ -1,25 +1,35 @@
 @import "./variables.scss";
 .showcase-container {
-  padding: 3rem 1rem;
-  margin-bottom: 2.5rem;
-
   background-color: $theme-white;
 
-  .img-container {
-    margin-bottom: 1.5rem;
+  .contents {
+    padding: 3rem 1rem;
+    margin-bottom: 2.5rem;
 
-    img {
-      width: 100%;
+    @media only screen and (min-width: 850px) {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
     }
-  }
 
-  h1 {
-    color: $theme-black;
-  }
+    .img-container {
+      margin-bottom: 1.5rem;
 
-  p {
-    margin: 1rem 0;
+      img {
+        width: 100%;
+        max-width: 550px;
+      }
+    }
 
-    color: $theme-black;
+    h1 {
+      color: $theme-black;
+      max-width: 400px;
+    }
+
+    p {
+      margin: 1rem 0;
+
+      color: $theme-black;
+    }
   }
 }

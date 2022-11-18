@@ -27,6 +27,12 @@ export const BannerText = styled.h1`
   @media (min-width: 500px) {
     font-size: 3rem;
   }
+  @media (min-width: 750px) {
+    font-size: 3.5rem;
+  }
+  @media (min-width: 850px) {
+    font-size: 4.5rem;
+  }
 `;
 
 export const Logo = styled.img`
@@ -35,13 +41,13 @@ export const Logo = styled.img`
 
 export const Button = styled.a`
   display: inline-block;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem;
   background: #ececec;
 
   font-family: "Outfit", sans-serif;
 
   outline: none;
-  border: none;
+  border: 0.1rem solid #fefefe00;
 
   border-radius: 1rem;
 
@@ -54,27 +60,63 @@ export const Button = styled.a`
   transition: 0.2s ease-in-out;
 
   &:hover {
-    background: #cecece;
+    background: none;
+    color: #fff;
+    border-color: #fff;
   }
 
   &.btn-green {
     background: #05d9d3;
 
     &:hover {
-      background: #017a76;
+      background: none;
       color: #fff;
     }
   }
+
+  &.btn-green-outline {
+    border-color: #05d9d3;
+    background: none;
+    color: #05d9d3;
+
+    &:hover {
+      background: #05d9d3;
+      color: #000;
+    }
+  }
+
   &.btn-orange {
     background: #ffa42c;
 
     &:hover {
+      border-color: #ffa42c;
+      background: none;
+      color: #ffa42c;
+    }
+  }
+
+  &.btn-orange-outline {
+    border-color: #ffa42c;
+    background: none;
+    color: #ffa42c;
+
+    &:hover {
       background: #ffa42c;
+      color: #000;
+    }
+  }
+
+  &.btn-black {
+    background: #090909;
+
+    &:hover {
+      background: #017a76;
       color: #fff;
     }
   }
-  &.btn-black {
-    background: #090909;
+
+  &.btn-black-outline {
+    border-color: #090909;
 
     &:hover {
       background: #017a76;
