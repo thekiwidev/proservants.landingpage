@@ -16,9 +16,9 @@ function App() {
       <Billboard />
       <Showcase />
       <Trustees />
-      <DeliverWithUs />
       <ShopNow />
       <SellNow />
+      <DeliverWithUs />
       <MarketPlace />
     </div>
   );

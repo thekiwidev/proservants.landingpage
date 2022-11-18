@@ -12,11 +12,7 @@ const Billboard = () => {
           </div>
           <div className="text-contents">
             <BannerText>
-              <span>
-                Unlimited possibilities
-                <br />
-              </span>{" "}
-              for all business<span>.</span>
+              Access more than variety, experience the <span>UNIQUENESS</span>.
             </BannerText>
             <Text>
               Now you own an online store in only 3 simple steps. 1. Create a

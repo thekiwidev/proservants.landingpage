@@ -14,14 +14,14 @@ export const Text = styled.p`
 
 export const BannerText = styled.h1`
   font-size: 2.5rem;
-  font-family: "Erode", sans-serif;
+  font-family: "Outfit", sans-serif;
 
   margin-bottom: 1.5rem;
   line-height: 1;
 
   span {
     color: #05d9d3;
-    font-family: "Erode", sans-serif;
+    font-family: "Outfit", sans-serif;
   }
 
   @media (min-width: 500px) {

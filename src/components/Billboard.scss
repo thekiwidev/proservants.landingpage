@@ -1,5 +1,6 @@
 @import "./variables.scss";
 .billboard-container {
+  padding: 5rem 0;
   @media only screen and (min-width: 850px) {
     max-height: 850px;
   }
@@ -26,14 +27,15 @@
         width: 90%;
         max-width: 500px;
         margin: auto;
+
+        @media only screen and (min-width: 850px) {
+          width: 60%;
+        }
       }
     }
     .text-contents {
       @media only screen and (min-width: 850px) {
         flex: 1;
-      }
-      h1 {
-        text-transform: capitalize;
       }
 
       p {

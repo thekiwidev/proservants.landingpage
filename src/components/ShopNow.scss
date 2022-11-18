@@ -1,45 +1,51 @@
 @import "./variables.scss";
 .shop-now-section {
-  margin-top: 3rem;
-  padding: 3rem 1rem;
-
   background-color: $theme-white;
+  margin-top: 3rem;
+  .contents {
+    padding: 3rem 1rem;
 
-  h1 {
-    margin-bottom: 3rem;
-    color: $theme-black;
-  }
+    @media only screen and (min-width: 850px) {
+      display: flex;
+      gap: 3rem;
+      align-items: center;
+      justify-content: center;
 
-  p {
-    margin-top: 1.5rem;
-    color: $theme-black;
-  }
-
-  .img-container {
-    display: grid;
-    place-content: center;
-
-    margin-top: 2rem;
-
-    img {
-      width: 90%;
-      margin: 2rem auto;
+      // flex-direction: row-reverse;
     }
-  }
-  .payments-features {
-    margin: 1rem 0 0;
 
-    .feature {
-      margin: 2rem 0;
+    h1 {
+      margin-bottom: 3rem;
+      color: $theme-black;
+    }
 
-      h3 {
-        margin-bottom: 1rem;
+    p {
+      margin-top: 1.5rem;
+      color: $theme-black;
+    }
+
+    .img-container {
+      display: grid;
+      place-content: center;
+
+      margin-top: 2rem;
+
+      @media only screen and (min-width: 850px) {
+        flex: 1;
       }
-      a.ext-link {
-        color: #05d9d3;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 1.1rem;
+
+      img {
+        width: 90%;
+        margin: 2rem auto;
+
+        @media only screen and (min-width: 850px) {
+          width: 100%;
+        }
+      }
+    }
+    .text-content {
+      @media only screen and (min-width: 850px) {
+        flex: 1;
       }
     }
   }

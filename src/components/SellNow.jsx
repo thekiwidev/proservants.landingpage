@@ -13,13 +13,12 @@ const SellNow = () => {
       <TextContent
         headText={
           <BannerText>
-            Start Selling Now With <span>ProServants</span>.
+            <span>Unlimited Possibilities</span> For All Business.
           </BannerText>
         }
         paraText={
           <Text>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            This is the part we write something about selling on ProServants,
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </Text>
